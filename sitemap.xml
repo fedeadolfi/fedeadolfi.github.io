@@ -1,71 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://fedeadolfi.github.io/</loc>
-    <lastmod>2020-10-02T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://fedeadolfi.github.io/post/blogpost_1/</loc>
-    <lastmod>2020-10-02T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://fedeadolfi.github.io/post/</loc>
-    <lastmod>2020-10-02T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://fedeadolfi.github.io/publication-type/2/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://fedeadolfi.github.io/publication/poeppel-2020-epistemological-primacy-hardware/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://fedeadolfi.github.io/authors/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://fedeadolfi.github.io/author/david-poeppel/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://fedeadolfi.github.io/author/federico-adolfi/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://fedeadolfi.github.io/publication_types/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://fedeadolfi.github.io/publication/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://fedeadolfi.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://fedeadolfi.github.io/author/federico-adolfi/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://fedeadolfi.github.io/talk/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://fedeadolfi.github.io/tags/</loc>
   </url>
-  
 </urlset>
