@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://fedeadolfi.github.io/</loc>
+    <lastmod>2024-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fedeadolfi.github.io/talk/elkana-forum/</loc>
+    <lastmod>2024-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fedeadolfi.github.io/talk/</loc>
+    <lastmod>2024-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fedeadolfi.github.io/talk/avenues-of-intelligence/</loc>
+    <lastmod>2024-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fedeadolfi.github.io/talk/saarbruecken-mpi-copy/</loc>
+    <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://fedeadolfi.github.io/publication-type/2/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,9 +24,6 @@
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fedeadolfi.github.io/publication/adolfi-complexity-reverse-engineering-2024/</loc>
-    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fedeadolfi.github.io/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fedeadolfi.github.io/author/federico-adolfi/</loc>
@@ -77,7 +89,5 @@
     <loc>https://fedeadolfi.github.io/categories/</loc>
   </url><url>
     <loc>https://fedeadolfi.github.io/author/federico-adolfi/</loc>
-  </url><url>
-    <loc>https://fedeadolfi.github.io/talk/</loc>
   </url>
 </urlset>
