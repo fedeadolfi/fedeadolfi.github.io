@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gemma Roig | Fede Adolfi</title>
-    <link>https://fedeadolfi.github.io/author/gemma-roig/</link>
-      <atom:link href="https://fedeadolfi.github.io/author/gemma-roig/index.xml" rel="self" type="application/rss+xml" />
-    <description>Gemma Roig</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <title>Martina G. Vilas | Fede Adolfi</title>
+    <link>https://fedeadolfi.github.io/author/martina-g.-vilas/</link>
+      <atom:link href="https://fedeadolfi.github.io/author/martina-g.-vilas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Martina G. Vilas</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://fedeadolfi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Gemma Roig</title>
-      <link>https://fedeadolfi.github.io/author/gemma-roig/</link>
+      <title>Martina G. Vilas</title>
+      <link>https://fedeadolfi.github.io/author/martina-g.-vilas/</link>
     </image>
     
     <item>
-      <title>An Inner Interpretability Framework for AI Inspired by Lessons from Cognitive Neuroscience</title>
-      <link>https://fedeadolfi.github.io/publication/vilas-position-2024/</link>
-      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://fedeadolfi.github.io/publication/vilas-position-2024/</guid>
+      <title>The Computational Complexity of Circuit Discovery for Inner Interpretability</title>
+      <link>https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/</guid>
       <description>&lt;!-- +++ --&gt;
 &lt;!-- # Almetric and Dimension badges
 add_badge = true --&gt;
@@ -39,7 +39,7 @@ add_badge = true --&gt;
       &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
         &lt;span style=&#34;float:left&#34;; 
           class=&#34;__dimensions_badge_embed__&#34; 
-          data-doi=&#34;https://proceedings.mlr.press/v235/vilas24a.html&#34;
+          data-doi=&#34;https://doi.org/10.48550/arXiv.2410.08025&#34;
           data-hide-zero-citations=&#34;true&#34; 
           data-badge-details=&#34;right&#34;
           data-legend=&#34;always&#34;&gt;
@@ -49,7 +49,7 @@ add_badge = true --&gt;
           data-link-target=&#34;_blank&#34; 
           data-badge-details=&#34;right&#34; 
           data-badge-type=&#34;medium-donut&#34;
-          data-doi=&#34;https://proceedings.mlr.press/v235/vilas24a.html&#34;
+          data-doi=&#34;https://doi.org/10.48550/arXiv.2410.08025&#34;
           data-condensed=&#34;true&#34; 
           data-hide-no-mentions=&#34;true&#34; 
           class=&#34;altmetric-embed&#34;&gt;

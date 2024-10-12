@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="Inner Interpretability is a promising emerging field tasked with uncovering the inner mechanisms of AI systems, though how to develop these mechanistic theories is still much debated. Moreover, recent critiques raise issues that question its usefulness to advance the broader goals of AI. However, it has been overlooked that these issues resemble those that have been grappled with in another field: Cognitive Neuroscience. Here we draw the relevant connections and highlight lessons that can be transferred productively between fields. Based on these, we propose a general conceptual framework and give concrete methodological strategies for building mechanistic explanations in AI inner interpretability research. With this conceptual framework, Inner Interpretability can fend off critiques and position itself on a productive path to explain AI systems.">
+  <meta name="description" content="Many proposed applications of neural networks in machine learning, cognitive/brain science, and society hinge on the feasibility of inner interpretability via circuit discovery. This calls for empirical and theoretical explorations of viable algorithmic options. Despite advances in the design and testing of heuristics, there are concerns about their scalability and faithfulness at a time when we lack understanding of the complexity properties of the problems they are deployed to solve. To address this, we study circuit discovery with classical and parameterized computational complexity theory: (1) we describe a conceptual scaffolding to reason about circuit finding queries in terms of affordances for description, explanation, prediction and control; (2) we formalize a comprehensive set of queries that capture mechanistic explanation, and propose a formal framework for their analysis; (3) we use it to settle the complexity of many query variants and relaxations of practical interest on multi-layer perceptrons (part of, e.g., transformers). Our findings reveal a challenging complexity landscape. Many queries are intractable (NP-hard, Σp2-hard), remain fixed-parameter intractable (W[1]-hard) when constraining model/circuit features (e.g., depth), and are inapproximable under additive, multiplicative, and probabilistic approximation schemes. To navigate this landscape, we prove there exist transformations to tackle some of these hard problems (NP- vs. Σp2-complete) with better-understood heuristics, and prove the tractability (PTIME) or fixed-parameter tractability (FPT) of more modest queries which retain useful affordances. This framework allows us to understand the scope and limits of interpretability queries, explore viable options, and compare their resource demands among existing and future architectures.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://fedeadolfi.github.io/publication/vilas-position-2024/">
+  <link rel="alternate" hreflang="en-us" href="https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/">
 
   
 
@@ -274,7 +274,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://fedeadolfi.github.io/publication/vilas-position-2024/">
+  <link rel="canonical" href="https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/">
 
   
   
@@ -292,15 +292,15 @@
   <meta property="twitter:creator" content="@fedeadolfi">
   
   <meta property="og:site_name" content="Fede Adolfi">
-  <meta property="og:url" content="https://fedeadolfi.github.io/publication/vilas-position-2024/">
-  <meta property="og:title" content="An Inner Interpretability Framework for AI Inspired by Lessons from Cognitive Neuroscience | Fede Adolfi">
-  <meta property="og:description" content="Inner Interpretability is a promising emerging field tasked with uncovering the inner mechanisms of AI systems, though how to develop these mechanistic theories is still much debated. Moreover, recent critiques raise issues that question its usefulness to advance the broader goals of AI. However, it has been overlooked that these issues resemble those that have been grappled with in another field: Cognitive Neuroscience. Here we draw the relevant connections and highlight lessons that can be transferred productively between fields. Based on these, we propose a general conceptual framework and give concrete methodological strategies for building mechanistic explanations in AI inner interpretability research. With this conceptual framework, Inner Interpretability can fend off critiques and position itself on a productive path to explain AI systems."><meta property="og:image" content="https://fedeadolfi.github.io/publication/vilas-position-2024/featured.png">
-  <meta property="twitter:image" content="https://fedeadolfi.github.io/publication/vilas-position-2024/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/">
+  <meta property="og:title" content="The Computational Complexity of Circuit Discovery for Inner Interpretability | Fede Adolfi">
+  <meta property="og:description" content="Many proposed applications of neural networks in machine learning, cognitive/brain science, and society hinge on the feasibility of inner interpretability via circuit discovery. This calls for empirical and theoretical explorations of viable algorithmic options. Despite advances in the design and testing of heuristics, there are concerns about their scalability and faithfulness at a time when we lack understanding of the complexity properties of the problems they are deployed to solve. To address this, we study circuit discovery with classical and parameterized computational complexity theory: (1) we describe a conceptual scaffolding to reason about circuit finding queries in terms of affordances for description, explanation, prediction and control; (2) we formalize a comprehensive set of queries that capture mechanistic explanation, and propose a formal framework for their analysis; (3) we use it to settle the complexity of many query variants and relaxations of practical interest on multi-layer perceptrons (part of, e.g., transformers). Our findings reveal a challenging complexity landscape. Many queries are intractable (NP-hard, Σp2-hard), remain fixed-parameter intractable (W[1]-hard) when constraining model/circuit features (e.g., depth), and are inapproximable under additive, multiplicative, and probabilistic approximation schemes. To navigate this landscape, we prove there exist transformations to tackle some of these hard problems (NP- vs. Σp2-complete) with better-understood heuristics, and prove the tractability (PTIME) or fixed-parameter tractability (FPT) of more modest queries which retain useful affordances. This framework allows us to understand the scope and limits of interpretability queries, explore viable options, and compare their resource demands among existing and future architectures."><meta property="og:image" content="https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/featured.png">
+  <meta property="twitter:image" content="https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-08-10T16:59:01&#43;00:00">
     
-    <meta property="article:modified_time" content="2024-09-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-10-01T00:00:00&#43;00:00">
   
 
   
@@ -322,20 +322,20 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://fedeadolfi.github.io/publication/vilas-position-2024/"
+    "@id": "https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/"
   },
-  "headline": "An Inner Interpretability Framework for AI Inspired by Lessons from Cognitive Neuroscience",
+  "headline": "The Computational Complexity of Circuit Discovery for Inner Interpretability",
   
   "image": [
-    "https://fedeadolfi.github.io/publication/vilas-position-2024/featured.png"
+    "https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/featured.png"
   ],
   
   "datePublished": "2020-08-10T16:59:01Z",
-  "dateModified": "2024-09-01T00:00:00Z",
+  "dateModified": "2024-10-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Martina G Vilas"
+    "name": "Federico Adolfi"
   },
   
   "publisher": {
@@ -346,7 +346,7 @@
       "url": "https://fedeadolfi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Inner Interpretability is a promising emerging field tasked with uncovering the inner mechanisms of AI systems, though how to develop these mechanistic theories is still much debated. Moreover, recent critiques raise issues that question its usefulness to advance the broader goals of AI. However, it has been overlooked that these issues resemble those that have been grappled with in another field: Cognitive Neuroscience. Here we draw the relevant connections and highlight lessons that can be transferred productively between fields. Based on these, we propose a general conceptual framework and give concrete methodological strategies for building mechanistic explanations in AI inner interpretability research. With this conceptual framework, Inner Interpretability can fend off critiques and position itself on a productive path to explain AI systems."
+  "description": "Many proposed applications of neural networks in machine learning, cognitive/brain science, and society hinge on the feasibility of inner interpretability via circuit discovery. This calls for empirical and theoretical explorations of viable algorithmic options. Despite advances in the design and testing of heuristics, there are concerns about their scalability and faithfulness at a time when we lack understanding of the complexity properties of the problems they are deployed to solve. To address this, we study circuit discovery with classical and parameterized computational complexity theory: (1) we describe a conceptual scaffolding to reason about circuit finding queries in terms of affordances for description, explanation, prediction and control; (2) we formalize a comprehensive set of queries that capture mechanistic explanation, and propose a formal framework for their analysis; (3) we use it to settle the complexity of many query variants and relaxations of practical interest on multi-layer perceptrons (part of, e.g., transformers). Our findings reveal a challenging complexity landscape. Many queries are intractable (NP-hard, Σp2-hard), remain fixed-parameter intractable (W[1]-hard) when constraining model/circuit features (e.g., depth), and are inapproximable under additive, multiplicative, and probabilistic approximation schemes. To navigate this landscape, we prove there exist transformations to tackle some of these hard problems (NP- vs. Σp2-complete) with better-understood heuristics, and prove the tractability (PTIME) or fixed-parameter tractability (FPT) of more modest queries which retain useful affordances. This framework allows us to understand the scope and limits of interpretability queries, explore viable options, and compare their resource demands among existing and future architectures."
 }
 </script>
 
@@ -364,7 +364,7 @@
 
 
 
-  <title>An Inner Interpretability Framework for AI Inspired by Lessons from Cognitive Neuroscience | Fede Adolfi</title>
+  <title>The Computational Complexity of Circuit Discovery for Inner Interpretability | Fede Adolfi</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
@@ -627,7 +627,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>An Inner Interpretability Framework for AI Inspired by Lessons from Cognitive Neuroscience</h1>
+  <h1>The Computational Complexity of Circuit Discovery for Inner Interpretability</h1>
 
   
 
@@ -644,7 +644,7 @@
     
 
   
-  <span >Martina G Vilas</span>, <span >Federico Adolfi</span>, <span >David Poeppel</span>, <span >Gemma Roig</span>
+  <span >Federico Adolfi</span>, <span >Martina G. Vilas</span>, <span >Todd Wareham</span>
   </div>
   
   
@@ -655,7 +655,7 @@
     
       
     
-    Sun, Sep 1, 2024
+    Tue, Oct 1, 2024
   </span>
   
 
@@ -705,14 +705,14 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/vilas-position-2024/vilas-position-2024.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/adolfi-complexity-interpretability-2024/adolfi-complexity-interpretability-2024.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/vilas-position-2024/cite.bib">
+        data-filename="/publication/adolfi-complexity-interpretability-2024/cite.bib">
   Cite
 </button>
 
@@ -728,7 +728,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/https://proceedings.mlr.press/v235/vilas24a.html" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/https://doi.org/10.48550/arXiv.2410.08025" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -740,9 +740,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 1001px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 1122px;">
   <div style="position: relative">
-    <img src="/publication/vilas-position-2024/featured_hua2b9949ce3fd78db452b4fe77c786cce_441898_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+    <img src="/publication/adolfi-complexity-interpretability-2024/featured_hu5541d9fc921292fce573a15101bd193d_742241_720x0_resize_lanczos_3.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -753,7 +753,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Inner Interpretability is a promising emerging field tasked with uncovering the inner mechanisms of AI systems, though how to develop these mechanistic theories is still much debated. Moreover, recent critiques raise issues that question its usefulness to advance the broader goals of AI. However, it has been overlooked that these issues resemble those that have been grappled with in another field: Cognitive Neuroscience. Here we draw the relevant connections and highlight lessons that can be transferred productively between fields. Based on these, we propose a general conceptual framework and give concrete methodological strategies for building mechanistic explanations in AI inner interpretability research. With this conceptual framework, Inner Interpretability can fend off critiques and position itself on a productive path to explain AI systems.</p>
+    <p class="pub-abstract">Many proposed applications of neural networks in machine learning, cognitive/brain science, and society hinge on the feasibility of inner interpretability via circuit discovery. This calls for empirical and theoretical explorations of viable algorithmic options. Despite advances in the design and testing of heuristics, there are concerns about their scalability and faithfulness at a time when we lack understanding of the complexity properties of the problems they are deployed to solve. To address this, we study circuit discovery with classical and parameterized computational complexity theory: (1) we describe a conceptual scaffolding to reason about circuit finding queries in terms of affordances for description, explanation, prediction and control; (2) we formalize a comprehensive set of queries that capture mechanistic explanation, and propose a formal framework for their analysis; (3) we use it to settle the complexity of many query variants and relaxations of practical interest on multi-layer perceptrons (part of, e.g., transformers). Our findings reveal a challenging complexity landscape. Many queries are intractable (NP-hard, Σp2-hard), remain fixed-parameter intractable (W[1]-hard) when constraining model/circuit features (e.g., depth), and are inapproximable under additive, multiplicative, and probabilistic approximation schemes. To navigate this landscape, we prove there exist transformations to tackle some of these hard problems (NP- vs. Σp2-complete) with better-understood heuristics, and prove the tractability (PTIME) or fixed-parameter tractability (FPT) of more modest queries which retain useful affordances. This framework allows us to understand the scope and limits of interpretability queries, explore viable options, and compare their resource demands among existing and future architectures.</p>
     
 
     
@@ -783,7 +783,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">ICML</div>
+          <div class="col-12 col-md-9">Arxiv</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -815,7 +815,7 @@ add_badge = true -->
       <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
         <span style="float:left"; 
           class="__dimensions_badge_embed__" 
-          data-doi="https://proceedings.mlr.press/v235/vilas24a.html"
+          data-doi="https://doi.org/10.48550/arXiv.2410.08025"
           data-hide-zero-citations="true" 
           data-badge-details="right"
           data-legend="always">
@@ -825,7 +825,7 @@ add_badge = true -->
           data-link-target="_blank" 
           data-badge-details="right" 
           data-badge-type="medium-donut"
-          data-doi="https://proceedings.mlr.press/v235/vilas24a.html"
+          data-doi="https://doi.org/10.48550/arXiv.2410.08025"
           data-condensed="true" 
           data-hide-no-mentions="true" 
           class="altmetric-embed">
@@ -863,7 +863,7 @@ add_badge = true -->
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://fedeadolfi.github.io/publication/vilas-position-2024/&amp;text=An%20Inner%20Interpretability%20Framework%20for%20AI%20Inspired%20by%20Lessons%20from%20Cognitive%20Neuroscience" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/&amp;text=The%20Computational%20Complexity%20of%20Circuit%20Discovery%20for%20Inner%20Interpretability" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -876,7 +876,7 @@ add_badge = true -->
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://fedeadolfi.github.io/publication/vilas-position-2024/&amp;t=An%20Inner%20Interpretability%20Framework%20for%20AI%20Inspired%20by%20Lessons%20from%20Cognitive%20Neuroscience" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/&amp;t=The%20Computational%20Complexity%20of%20Circuit%20Discovery%20for%20Inner%20Interpretability" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -889,7 +889,7 @@ add_badge = true -->
       
       
       <li>
-        <a href="mailto:?subject=An%20Inner%20Interpretability%20Framework%20for%20AI%20Inspired%20by%20Lessons%20from%20Cognitive%20Neuroscience&amp;body=https://fedeadolfi.github.io/publication/vilas-position-2024/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=The%20Computational%20Complexity%20of%20Circuit%20Discovery%20for%20Inner%20Interpretability&amp;body=https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -902,7 +902,7 @@ add_badge = true -->
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://fedeadolfi.github.io/publication/vilas-position-2024/&amp;title=An%20Inner%20Interpretability%20Framework%20for%20AI%20Inspired%20by%20Lessons%20from%20Cognitive%20Neuroscience" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/&amp;title=The%20Computational%20Complexity%20of%20Circuit%20Discovery%20for%20Inner%20Interpretability" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -915,7 +915,7 @@ add_badge = true -->
       
       
       <li>
-        <a href="whatsapp://send?text=An%20Inner%20Interpretability%20Framework%20for%20AI%20Inspired%20by%20Lessons%20from%20Cognitive%20Neuroscience%20https://fedeadolfi.github.io/publication/vilas-position-2024/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=The%20Computational%20Complexity%20of%20Circuit%20Discovery%20for%20Inner%20Interpretability%20https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -928,7 +928,7 @@ add_badge = true -->
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://fedeadolfi.github.io/publication/vilas-position-2024/&amp;title=An%20Inner%20Interpretability%20Framework%20for%20AI%20Inspired%20by%20Lessons%20from%20Cognitive%20Neuroscience" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://fedeadolfi.github.io/publication/adolfi-complexity-interpretability-2024/&amp;title=The%20Computational%20Complexity%20of%20Circuit%20Discovery%20for%20Inner%20Interpretability" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -945,17 +945,6 @@ add_badge = true -->
 
 
 
-
-
-  
-    
-    
-
-
-
-
-
-  
 
 
   
