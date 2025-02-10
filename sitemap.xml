@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://fedeadolfi.github.io/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fedeadolfi.github.io/talk/mpi-ai-law/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fedeadolfi.github.io/talk/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://fedeadolfi.github.io/publication-type/2/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fedeadolfi.github.io/authors/</loc>
-    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fedeadolfi.github.io/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fedeadolfi.github.io/author/federico-adolfi/</loc>
@@ -30,9 +36,6 @@
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fedeadolfi.github.io/talk/elkana-forum/</loc>
-    <lastmod>2024-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fedeadolfi.github.io/talk/</loc>
     <lastmod>2024-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fedeadolfi.github.io/publication/vilas-position-2024/</loc>
