@@ -5,7 +5,7 @@
     <link>https://fedeadolfi.github.io/talk/</link>
       <atom:link href="https://fedeadolfi.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 07 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 28 Mar 2025 16:00:01 +0000</lastBuildDate>
     <image>
       <url>https://fedeadolfi.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Max Planck Law, Tech, and Society</title>
+      <link>https://fedeadolfi.github.io/talk/mpi-ai-law/</link>
+      <pubDate>Fri, 28 Mar 2025 16:00:01 +0000</pubDate>
+      <guid>https://fedeadolfi.github.io/talk/mpi-ai-law/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Max Planck Institute for the History of Science — Elkana Forum</title>
       <link>https://fedeadolfi.github.io/talk/elkana-forum/</link>
-      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 07 Sep 2024 15:00:01 +0000</pubDate>
       <guid>https://fedeadolfi.github.io/talk/elkana-forum/</guid>
       <description></description>
     </item>
@@ -23,7 +31,7 @@
     <item>
       <title>Heidelberg University — Avenues of Intelligence (Interdisciplinary Workshop)</title>
       <link>https://fedeadolfi.github.io/talk/avenues-of-intelligence/</link>
-      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 Aug 2024 14:00:01 +0000</pubDate>
       <guid>https://fedeadolfi.github.io/talk/avenues-of-intelligence/</guid>
       <description></description>
     </item>
@@ -31,16 +39,8 @@
     <item>
       <title>Max Planck Institute for Software Systems</title>
       <link>https://fedeadolfi.github.io/talk/saarbruecken-mpi/</link>
-      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Aug 2024 14:00:01 +0000</pubDate>
       <guid>https://fedeadolfi.github.io/talk/saarbruecken-mpi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Max Planck Law, Tech, and Society</title>
-      <link>https://fedeadolfi.github.io/talk/mpi-ai-law/</link>
-      <pubDate>Sat, 10 Aug 2024 16:59:01 +0000</pubDate>
-      <guid>https://fedeadolfi.github.io/talk/mpi-ai-law/</guid>
       <description></description>
     </item>
     
